@@ -17,5 +17,3 @@ def primes(number_of_primes):
 
         i += 1
     return list
-
-print(str(primes(20)))
