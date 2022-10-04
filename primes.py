@@ -4,7 +4,7 @@
 def primes(number_of_primes):
     list = []
     count = 0
-    i = 2
+    i = 3
     while (count < number_of_primes):
         for j in range(2, i):
             if (i % j) == 0:
@@ -15,3 +15,5 @@ def primes(number_of_primes):
                 break;
         i += 1
     return list
+
+print(str(primes(1)))
